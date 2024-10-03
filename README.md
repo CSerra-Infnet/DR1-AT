@@ -30,11 +30,11 @@ Seja criativo e defina uma pergunta clara que você deseja responder usando dado
 
 3. **Definir a estrutura do dashboard:**
 
-- [] Desenvolva uma interface interativa em Streamlit que permita ao usuário selecionar:
+- [x] Desenvolva uma interface interativa em Streamlit que permita ao usuário selecionar:
 - [x] Um campeonato específico.
 - [x] Uma temporada (ano).
 - [x] Uma partida ou jogador para análise.
-- [] Organize o layout do dashboard em colunas, usando columns, sidebars, containers e tabs para melhorar a usabilidade.
+- [x] Organize o layout do dashboard em colunas, usando columns, sidebars, containers e tabs para melhorar a usabilidade.
 
 4. **Obter dados e exibir informações básicas**
 - [x] Use a biblioteca StatsBombPy para carregar dados de competições, temporadas, partidas e jogadores.
@@ -69,8 +69,8 @@ Seja criativo e defina uma pergunta clara que você deseja responder usando dado
 - Armazene o estado da sessão do usuário utilizando Session State, garantindo que a interação do usuário não seja perdida quando ele navegar entre páginas.
 
 10. **Publicar o projeto**
-- [] Realize o deploy da aplicação utilizando o Streamlit Community Cloud. Verifique se o deploy foi bem-sucedido e que todas as funcionalidades estão funcionando conforme esperado.
-- [] Compartilhe o link da aplicação publicada e o repositório no GitHub.
+- [x] Realize o deploy da aplicação utilizando o Streamlit Community Cloud. Verifique se o deploy foi bem-sucedido e que todas as funcionalidades estão funcionando conforme esperado.
+- [x] Compartilhe o link da aplicação publicada e o repositório no GitHub.
 
 
 Este projeto oferece uma oportunidade de aplicar as habilidades de desenvolvimento front-end com Python e de cientista de dados, que utiliza seus conhecimentos para resolver problemas reais, como a análise de dados esportivos (sports analytics), combinando dados reais de futebol com visualizações interativas aplicáveis a cenários reais de tomada de decisão e análise.

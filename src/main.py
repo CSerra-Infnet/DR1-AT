@@ -22,14 +22,14 @@ def Dashboard() -> None:
     
     with st.sidebar:
         st.write("### Selecione a Competição e Temporada")
-        co1, co2 = st.columns(2)
-        selCompetition = co1.selectbox("Competição", competitions.competition_id.unique(), format_func= lambda x: hp.getCompetitionName(x), key="competition_id")
+       
+        selCompetition = st.selectbox("Competição", competitions.competition_id.unique(), format_func= lambda x: hp.getCompetitionName(x), key="competition_id")
         
         if selCompetition:
             competition = hp.selectCompetition(selCompetition)
             seasons = competitions[competitions["competition_id"]==selCompetition]
             st.session_state.seasons = seasons
-            selSeason = co2.selectbox("Temporada", seasons['season_id'], format_func= lambda x: hp.getSeasonName(x), key="season_id")
+            selSeason = st.selectbox("Temporada", seasons['season_id'], format_func= lambda x: hp.getSeasonName(x), key="season_id")
             season = hp.selectSeason(selSeason)
             
     
